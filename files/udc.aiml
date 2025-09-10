@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  
+<category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+</category>
+
+
+<category>
+    <pattern>Hello</pattern>
+    <template>
+        <random>
+            <li>Hi</li>
+             <li>Hello</li>
+              </random>
+        </template>
+</category>
+
+<category>
+    <pattern>How are you ^</pattern>
+    <template>
+        Good, what about you ?
+        </template>
+</category>
+
+<category>
+    <pattern>I am fine ^</pattern>
+    <template>
+        Nice to hear.
+        </template>
+</category>
+
+<category>
+    <pattern>_ SAD</pattern>
+    <template>
+        I hope you will feel better. Is anything bothering you ?
+        </template>
+</category>
+
+<category>
+    <pattern>Yes *</pattern>
+    <template>
+        I wish you to overcome this.
+        </template>
+</category>
+
+<category>
+    <pattern>I am feeling anxious ^</pattern>
+    <template>
+        Sometimes feeling anxious is normal. How can I help you ?
+        </template>
+</category>
+
+<category>
+    <pattern>Cheer me up ^</pattern>
+    <template>
+       Sure. May be anxiety comes from how you perceive problem. You can do what is possible about it. Relaxing may also help.
+        </template>
+</category>
+
+<category>
+    <pattern>What are you doing ^</pattern>
+    <template>
+        Watching a movie. What was the last movie you have watched ?
+        </template>
+</category>
+
+<category>
+    <pattern>Movie was *</pattern>
+    <template>
+        <star/> is a good movie.
+        </template>
+</category>
+
+
+<category>
+    <pattern>MY NAME IS * AND I AM * YEARS OLD ^</pattern>
+    <template>Hello, <star/>. I am also <star index = "2"/> years old.</template>
+    </category>
+
+<category>
+    <pattern>^ BYE</pattern>
+    <template>
+       Good bye. See you next time.
+        </template>
+</category>
+</aiml>
